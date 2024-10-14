@@ -41,7 +41,7 @@ The Heat Waves Mobile Alert System is designed to monitor temperature data and s
    pip install pandas twilio
    ```
 
-## Usage
+# Usage
 1. Update the `historical_temperature_data.csv` file with your temperature data. Ensure it has a `temperature` column.
 2. Configure your Twilio account by replacing `your_account_sid`, `your_auth_token`, and the `from_` number in the `send_sms` function.
 3. Run the script:
@@ -49,12 +49,12 @@ The Heat Waves Mobile Alert System is designed to monitor temperature data and s
    python heat_wave_detection.py
    ```
 
-## How It Works
+# How It Works
 1. The script reads historical temperature data from a CSV file.
 2. It analyzes the temperature data to detect heatwaves based on a defined threshold and the number of consecutive days above that threshold.
 3. If a heatwave is detected, an SMS notification is sent to the specified phone number using the Twilio API.
 
-### Sample CSV Format
+# Sample CSV Format
 Ensure your `historical_temperature_data.csv` file has the following structure:
 ```
 date,temperature
@@ -64,9 +64,9 @@ date,temperature
 ...
 ```
 
-## License
+# License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
+
 ## Output
 ![Screenshot (65)](https://github.com/user-attachments/assets/a605b9fc-a8d1-43c8-989a-fa36e24faa0c)
 
