@@ -64,34 +64,9 @@ date,temperature
 ...
 ```
 
-## Contributing
-Contributions are welcome! Please follow these steps:
-1. Fork the repository.
-2. Create a new branch for your feature:
-   ```bash
-   git checkout -b feature-branch-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add some feature"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature-branch-name
-   ```
-5. Create a pull request.
-
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
-
-## Customization
-- Replace `<repository-url>` and `<project-directory>` with your actual repository link and project folder name.
-- Add any additional features or notes specific to your project.
-- Include a License section if you have a specific license you want to apply.
-
-Feel free to adjust any sections to fit your project's needs!
-
-# OUTPUT
+## Output
 ![Screenshot (65)](https://github.com/user-attachments/assets/a605b9fc-a8d1-43c8-989a-fa36e24faa0c)
 
